@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -41,10 +42,12 @@ fun MenampilkanPesan(user: User){
             contentDescription = "Uni musamus",
             modifier = Modifier
                 // Set image size to 40 dp
-                .size(45.dp)
+                .size(40.dp)
                 // Clip image to be shaped as a circle
                 .clip(CircleShape)
-        )
+
+
+                }
         Column() {
             Text(text = user.name)
             Text(text = user.umur.toString())
