@@ -1,3 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">sample aplication</string>
+    <string name="placeholder_search">cari</string>
+    <string name="ab1_inversions">Inversions1</string>
+    <string name="ab2_inversions">Inversions2</string>
+    <string name="ab3_inversions">Inversions3</string>
+    <string name="ab4_inversions">Inversions4</string>
 </resources>
